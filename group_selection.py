@@ -25,3 +25,4 @@ response = sampler.sample_ising(
     annealing_time=100,
 )
 dwave.inspector.show(response)
+print(response)
